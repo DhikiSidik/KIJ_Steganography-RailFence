@@ -66,7 +66,7 @@ def encode():
     if not data:
         raise ValueError('Pesan Tidak Boleh Kosong')
 
-    key = 3  # Rail Fence Cipher key
+    key = 3
     encoded_message = encode_rail_fence(data, key)
 
     newimg = image.copy()
